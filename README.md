@@ -1,10 +1,8 @@
-# toit-rest-api
+# TOIT Rest API
+
+Toit supports network protocols, including __HTTP__, which makes it suitable for interacting with __REST APIs__ implemented on third-party servers as a client, sending __HTTP__ requests. In this case, you can use this feature to create an application that provides __weather data__ upon request. The __ESP32 chip__ for instance like to given below, can easily be turned into an independense __MQTT client__ that provides, for example, an android application with the ability to request weather information.
 
 ![weather_esp32s3](https://github.com/user-attachments/assets/4c45358e-fa72-47c9-a2bb-ef897690c2ec)
-
-
-# ESP32S3
-
 
 
 # Movie I
