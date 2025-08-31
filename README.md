@@ -8,9 +8,10 @@ Toit supports network protocols, including __HTTP__, which makes it suitable for
 
 ![weather_esp32s3](https://github.com/user-attachments/assets/4c45358e-fa72-47c9-a2bb-ef897690c2ec)
 
+## Weather services used in app
+
+
 ## Implementation
-
-
 
 
 # Movie I
