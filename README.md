@@ -22,8 +22,7 @@ The application consists of two parts:
 * Create and execute a request using the __doneRequest__ function and send the received weather data to the desired topic via the MQTT bridge.
 > The __doneRequest__ function, in the _weather.toit_ file, which receives data for a request and returns a json string with current weather data.
 
-
-# Movie I
+NB! Details on using __HTTP__ requests in __TOIT__ can be found at https://docs.toit.io/tutorials/network/http.
 
 [weather.webm](https://github.com/user-attachments/assets/07172905-7f2b-4f62-ae97-89b6d4c27dc2)
 
