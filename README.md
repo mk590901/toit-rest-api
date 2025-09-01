@@ -1,4 +1,4 @@
-# TOIT Rest API
+# Access WEB services in TOIT
 
 Below is an application that allows you to turn the __ESP32S3__ chip into an __MQTT__ client of weather service.
 
@@ -10,6 +10,9 @@ Toit supports network protocols, including __HTTP__, which makes it suitable for
 
 ## Weather services used in app
 
+The application interacts with two services:
+* https://openweathermap.org/api, which allows you to get geo-location in the form [latitude, longitude] based on the request [city, country code]. The request must also contain an __API key__, which can be obtained by registering on the site.
+* https://api.open-meteo.com/, which provides a free __REST API__ for obtaining current weather data based on [latitude, longitude] and a list of weather variables, details on the website open-meteo.com
 
 ## Implementation
 
