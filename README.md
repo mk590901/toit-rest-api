@@ -138,7 +138,9 @@ micrcx@micrcx-desktop:~/toit/rest$
 
 ```
 
-# Third-party flutter MQTT client app allows send requests to and receive results to/from ESP32S3 chip
+# Third-party flutter MQTT client app
+
+Allows send requests to and receive results to/from ESP32S3 chip.
 
 https://github.com/user-attachments/assets/6144d44d-dfe1-4c26-993e-8ff17d6361f1
 
