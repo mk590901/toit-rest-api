@@ -10,14 +10,21 @@ Toit supports network protocols, including __HTTP__, which makes it suitable for
 
 ## Weather services used in app
 
-The application interacts with two services:
+The application interacts with two cloud services:
 * https://openweathermap.org/api, which allows you to get geo-location in the form [latitude, longitude] based on the request [city, country code]. The request must also contain an __API key__, which can be obtained by registering on the site.
 * https://api.open-meteo.com/, which provides a free __REST API__ for obtaining current weather data based on [latitude, longitude] and a list of weather variables, details on the website open-meteo.com
 
 ## Implementation
 
+The application consists of two parts:
+> MQTT client in the mqtt_bridge.toit file, which allows
+* Receive data for a request pair [city, country code]. For example, "Tokyo, JP", "Jerusalem, IL" or "Rovaniemi, FI", 
+* Create and execute a request using the doneRequest function and send the received weather data to the desired topic via the MQTT bridge.
+> The doneRequest function, in the weather.toit file, which receives data for a request and returns a json string with current weather data.
+
 
 # Movie I
+
 [weather.webm](https://github.com/user-attachments/assets/07172905-7f2b-4f62-ae97-89b6d4c27dc2)
 
 # Movie II
