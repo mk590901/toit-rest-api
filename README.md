@@ -17,10 +17,10 @@ The application interacts with two cloud services:
 ## Implementation
 
 The application consists of two parts:
-> MQTT client in the mqtt_bridge.toit file, which allows
+> MQTT client in the _mqtt_bridge.toit_ file, which allows
 * Receive data for a request pair [city, country code]. For example, "Tokyo, JP", "Jerusalem, IL" or "Rovaniemi, FI", 
-* Create and execute a request using the doneRequest function and send the received weather data to the desired topic via the MQTT bridge.
-> The doneRequest function, in the weather.toit file, which receives data for a request and returns a json string with current weather data.
+* Create and execute a request using the __doneRequest__ function and send the received weather data to the desired topic via the MQTT bridge.
+> The __doneRequest__ function, in the _weather.toit_ file, which receives data for a request and returns a json string with current weather data.
 
 
 # Movie I
