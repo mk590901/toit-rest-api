@@ -1,4 +1,4 @@
-# Access WEB services in TOIT
+# TOIT and REST API
 
 Below is an application that allows you to turn the __ESP32S3__ chip into an __MQTT__ client of weather service.
 
